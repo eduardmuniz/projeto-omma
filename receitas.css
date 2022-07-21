@@ -1,0 +1,141 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/*header and footer*/
+
+#img-banner{
+    padding: 15px 0px 15px 0px;
+}
+
+A {text-decoration: none;}
+
+nav{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+
+}
+nav ul li a {
+    color: white
+    
+}
+nav  ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li{
+
+    font-size: 30;
+    font-weight: 700;
+    padding: 7px 30px 7px 30px;
+    list-style: none;
+    text-decoration: none;
+
+}
+header{
+  display: flex;
+  background-color:#FFC107;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(108, 102, 102, 0.371)
+
+}
+
+footer{
+
+    display: flex;
+      background-color:#FFC107;
+      align-items: left;
+      justify-content: left;
+      position: relative;
+      padding-right: 500px;
+      
+      
+    
+    
+    
+    
+    }
+    
+    .foot{
+       
+        
+        align-self: center;
+        position: relative;
+        color: white;
+        padding-left: 100px;
+    }
+
+
+/*page content*/
+
+
+main {
+    padding: 20px 100px 40px 100px;
+    
+}
+
+h1 {
+    color: orange;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.grid {
+
+    display: grid;
+    justify-content: space-between;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+    
+.grid div {
+    padding: 10px 55px 40px 0px;
+}
+
+.grid div img {
+
+    width: 345px;
+    height: 342px;
+    
+}
+
+.grid div p {
+
+    
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 10px;
+    
+}
+
+button{
+
+    font-size: 20px;
+    font-weight: 700;
+    background-color: green;
+    border: none;
+    padding: 3px 25px 3px 25px;
+    color: white;
+    
+}
+
+.grid div .conferir {
+
+    padding: 4px 10px 4px 105px;
+}
+
+button a {
+
+    color: white;
+}

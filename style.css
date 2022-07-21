@@ -1,0 +1,152 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/*header and footer*/
+
+#img-banner{
+    padding: 15px 0px 15px 0px;
+}
+
+A {text-decoration: none;}
+
+nav{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+
+}
+nav ul li a {
+    color: white
+    
+}
+nav  ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li{
+
+    font-size: 30;
+    font-weight: 700;
+    padding: 7px 30px 7px 30px;
+    list-style: none;
+    text-decoration: none;
+
+}
+header{
+  display: flex;
+  background-color:#FFC107;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(108, 102, 102, 0.371)
+
+}
+
+footer{
+
+    display: flex;
+      background-color:#FFC107;
+      align-items: left;
+      justify-content: left;
+      position: relative;
+      padding-right: 500px;
+      
+      
+    
+    
+    
+    
+    }
+    
+    .foot{
+       
+        
+        align-self: center;
+        position: relative;
+        color: white;
+        padding-left: 100px;
+    }
+
+    /*page content*/
+
+    main {
+
+    display: flex;
+    }
+
+    .main-class {
+
+        padding: 50px 100px;
+    }
+
+    h1 {
+        color: orange;
+        font-size: xx-large;
+    }
+
+    .caracteristicas {
+        display: flex;
+        justify-content: space-between;
+        max-width:35%;
+        color: green;
+        list-style: none;
+        text-decoration: none;
+        padding: 20px 0px 20px 0px ;
+        font-weight: 600;
+
+        
+
+    }
+
+    .caracteristicas p {
+
+        
+        border: 7px 20px 7px 20px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 20px;
+        padding: 4px;  
+    }
+
+    article {
+
+        padding-left: 10px;
+        max-width: 592px;
+        
+    }
+
+    h2 {
+        font-weight: 500;
+        color: orange;
+    }
+
+    
+.right-class {
+
+    font-weight: 600;
+    font-size: larger;
+    padding: 120px 70px 0px;
+    justify-items: right;
+}
+    
+.right-class p {
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(108, 102, 102, 0.371);
+    border-radius: 0px;
+    
+    
+    
+    
+}
