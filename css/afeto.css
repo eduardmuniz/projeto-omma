@@ -78,7 +78,8 @@ footer{
 
     /*page content*/
 
-    div {
-
-        background-image;
+    .receitas {
+        display: flex;
+        justify-content: space-evenly;
+        
     }
